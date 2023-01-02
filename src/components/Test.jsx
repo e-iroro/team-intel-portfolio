@@ -5,6 +5,7 @@ function Test() {
             <h2 className=" font-questrial text-5xl">This is the heading. (Questrial)</h2>
             <p className=" font-work-sans text-lg">This is one paragraph (Work Sans)</p>
             <p className=" font-avenir-light text-lg">This is another paragraph (Avenir Light)</p>
+            <p> Hello </p>
         </div>
     </>
   );
