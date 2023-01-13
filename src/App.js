@@ -1,9 +1,8 @@
-import Test from './components/Test';
-
+import About from './components/About'
 function App() {
   return (
-    <div className=" w-4/6 mx-auto ">
-        <Test />
+    <div className=" w-5/6 mx-auto ">
+        <About />
     </div>
   );
 }
