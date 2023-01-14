@@ -1,10 +1,10 @@
-import Test from './components/Test';
 import Hero from './components/Hero';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className=" w-4/6 mx-auto ">
-        <Test />
+        <Navbar />
         <Hero />
     </div>
   );
