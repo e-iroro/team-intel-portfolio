@@ -58,7 +58,7 @@ function Hero() {
             Lewa,
           </a>{" "}
           <a
-            href="https://github.com/e-iroro"
+            href="https://github.com/Jemeelah1"
             target="_blank"
             rel="noreferrer"
             className=" hover:text-purple"
