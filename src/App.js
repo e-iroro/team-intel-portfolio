@@ -1,4 +1,5 @@
-import Test from './components/Test';
+import Hero from './components/Hero';
+import Navbar from './components/Navbar';
 import ProjectCard from './components/ProjectCard';
 import projects from './project';
 
@@ -23,9 +24,9 @@ function createProjectCard(project) {
 
 function App() {
   return (
-    <div className=" w-3/4 mx-auto ">
-        <Test />
-        {projects.map(createProjectCard)}
+    <div className=" w-4/6 mx-auto ">
+        <Navbar />
+        <Hero />
     </div>
   );
 }
