@@ -20,7 +20,8 @@ module.exports = {
       'blue': '#276EF1',     
       'violet': '#907AD6',     
       'white': '#ffffff',
-      
+      'light-green':'#7CE7B3',
+      'light-red': '#E3B4BB',    
       'purple-400': '#907AD6',
       brightRed:'hsl(12,88%,59%)',
       brightRedLight:'hsl(12,88%,69%)',
@@ -38,7 +39,11 @@ module.exports = {
         'avenir-light': ['"avenir-light"', 'sans-serif'],
         'avenir-regular': ['"avenir-regular"', 'sans-serif'],
         'avenir-heavy': ['"avenir-heavy"', 'sans-serif'],
+        'alex-brush': ['"Petit Formal Script"', 'cursive'],
       },
+      colors:{
+        'grey' : '#C8C5C9',
+      }
     },
   },
   plugins: [],

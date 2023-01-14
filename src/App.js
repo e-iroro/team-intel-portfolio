@@ -1,6 +1,8 @@
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import ProjectCard from './components/ProjectCard';
+import About from './components/About';
+import Work from "./components/Work"
 import projects from './project';
 
 
@@ -28,6 +30,8 @@ function App() {
         <Navbar />
         <Hero />
         {projects.map(createProjectCard)}
+        <Work/>
+        <About/>
     </div>
   );
 }
