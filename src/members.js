@@ -4,7 +4,7 @@ const members = [
         image: "https://res.cloudinary.com/eiroro/image/upload/v1673722014/team-intel-portfolio/Blessing_gp9a95.jpg",
         title: "Team Lead",
         name: "Blessing Ejogbamu",
-        bio: "Aspiring developer, zoologist, food lover & Taekwondo player, who is very passionate about software development & cats ",
+        bio: "A software developer who is passionate about what she does with good leadership qualities and team spirit, an ardent lover of God, and a lady that believes she can do anything she puts her mind to.",
     },
     {
         id: 2,
@@ -54,7 +54,7 @@ const members = [
         image: "https://res.cloudinary.com/eiroro/image/upload/v1673720847/team-intel-portfolio/MicrosoftTeams-image_1_gxf3fi.jpg",
         title: "Team Member",
         name: "Omolewaaye Olodun",
-        bio: "Aspiring developer, zoologist, food lover & Taekwondo player, who is very passionate about software development & cats ",
+        bio: "Omolewaaye Olodun is a goal oriented individual with a keen interest in self development and her community at large. She is a good communicator who loves to create ,organize and write.",
 
     },
     {
@@ -64,13 +64,7 @@ const members = [
         name: "Joyce Akite",
         bio: "Aspiring developer, zoologist, food lover & Taekwondo player, who is very passionate about software development & cats ",
     },
-    {
-        id: 10,
-        image: "",
-        title: "Team Member",
-        name: "Angela Ubah",
-        bio: "Aspiring developer, zoologist, food lover & Taekwondo player, who is very passionate about software development & cats ",
-    },
+    
 ]
 
 

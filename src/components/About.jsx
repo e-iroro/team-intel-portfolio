@@ -1,6 +1,5 @@
 import MemberCard from "./MemberCard";
 import members from "../members";
-import ScrollAnimation from 'react-animate-on-scroll';
 
 
 function createMemberCard(members) {
@@ -20,11 +19,11 @@ function About() {
   return (
     <div className="mt-10 w-full my-auto text-center ">
       <h1 className="font-questrial text-4xl mb-4 ">Meet the team 👋</h1>
-      <ScrollAnimation animateIn="fadeIn">
+      
         <div className="flex flex-co flex-wrap space-y-10 md:space-y-0 justify-evenly">
             {members.map(createMemberCard)}
         </div>
-      </ScrollAnimation>
+      
     </div>
   );
 }
