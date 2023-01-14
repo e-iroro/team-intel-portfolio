@@ -1,11 +1,12 @@
-import Test from './components/Test';
+import React from 'react'
+import Topwork from './components/Topwork'
 
 function App() {
   return (
-    <div className=" w-4/6 mx-auto ">
-        <Test />
+    <div>
+      <Topwork />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
