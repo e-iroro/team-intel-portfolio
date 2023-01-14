@@ -1,17 +1,15 @@
-import Leftsect from "./Leftsect"
-import Rightsect from "./Rightsect"
-
+import Membercard from "./Membercard"
 function About(){
 
     return(
-        <>
-        <nav className="font-questrial text-2xl">Team Intel</nav>
-       <div className="flex flex-co  w-5/6 h-4/5  mt-24 mx-auto mb-48">
-        <Leftsect/>
-        <Rightsect/>
+       <div className = "mt-32 w-full my-auto  border border-pink rounded text-center ">
+        <p className = "font-questrial text-4xl mb-4 ">Meet the team 👋</p>
+        <div className="flex flex-co flex-wrap justify-evenly" >
+        <Membercard/>
+        
+            </div>
+            
        </div>
-       <footer className = "font-avenir-light text-sm absolute inset-auto bottom-px ">©2023 by Team Intel</footer>
-       </>
     )
 }
 
