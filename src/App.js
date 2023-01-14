@@ -24,9 +24,10 @@ function createProjectCard(project) {
 
 function App() {
   return (
-    <div className=" w-4/6 mx-auto ">
+    <div className=" w-3/4 mx-auto ">
         <Navbar />
         <Hero />
+        {projects.map(createProjectCard)}
     </div>
   );
 }

@@ -5,9 +5,9 @@ function Hero() {
         src="https://theedresearchhub.com/wp-content/uploads/2022/03/WT-LOGO-1.png"
         alt="Women Techsters Logo"
         srcset=""
-        width={200}
+        width={240}
       />
-      <div className=" pl-8 sm:mt-10">
+      <div className=" pl-0 md:pl-20 sm:mt-10">
         <h1 className=" font-questrial text-purple text-3xl pb-7">
           Hi! We're Team Intel.
         </h1>

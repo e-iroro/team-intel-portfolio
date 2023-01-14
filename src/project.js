@@ -6,7 +6,6 @@ const projects = [
         name:"Amusan Portfolio",
         description : "A portfolio page for a photographer",
         category: "Web Development, HTML, CSS" ,
-        project:"https://www.jayma.design/redesigning-rental-pickups-uber",
         repo:"https://github.com/blessdamy/Profile-project"    ,
         projectlink: "https://profile-project1.netlify.app"
     },
@@ -17,7 +16,6 @@ const projects = [
         name:"Todo App",
         description : "An app that can create, edit and delete todos",
         category: "Web Development, HTML, CSS, JavaScript" ,
-        project:"https://www.jayma.design/redesigning-rental-pickups-uber",
         repo:"https://github.com/blessdamy/Blessing-Todo-Assignment"    ,
         projectlink: "https://damy-todo.netlify.app"
     },
@@ -28,7 +26,6 @@ const projects = [
         name:"Review App",
         description : "An app that can create, edit and delete todos",
         category: "Web Development, HTML, TailwindCSS, ReactJS" ,
-        project:"https://www.jayma.design/redesigning-rental-pickups-uber",
         repo:"https://github.com/blessdamy/Team-Intel-Footer"    ,
         projectlink: "https://team-intel.netlify.app"
     },
