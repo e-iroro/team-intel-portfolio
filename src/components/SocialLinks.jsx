@@ -7,7 +7,7 @@ library.add(faEnvelope, fab, faCheckSquare, faCoffee);
 
 function SocialLinks() {
   return (
-    <div className=" flex">
+    <div className=" flex list-none">
       <li>
         <a
           className="  text-xl md:text-xl font-avenir-light font-medium mx-2 hover:text-purple hover:scale-125 transition duration-300"
