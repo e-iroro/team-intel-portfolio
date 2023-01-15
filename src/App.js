@@ -4,6 +4,7 @@ import ProjectCard from "./components/ProjectCard";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import projects from './project';
+import Footers from "./components/Footer";
 
 function createProjectCard(project) {
   return (
@@ -29,6 +30,8 @@ function App() {
       {projects.map(createProjectCard)}
       <About />
       <Footer />
+        <Footers/>
+        {console.log("footer")}
     </div>
   );
 }
