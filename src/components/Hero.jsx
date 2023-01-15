@@ -63,7 +63,7 @@ function Hero() {
             rel="noreferrer"
             className=" hover:text-purple"
           >
-            Jemila,
+            Folasade,
           </a>{" "}
           <a
             href="https://github.com/akite123"
@@ -79,7 +79,7 @@ function Hero() {
             rel="noreferrer"
             className=" hover:text-purple"
           >
-            Nancy,
+            Nancy and
           </a>{" "}
           <a
             href="https://github.com/DeCoder361"
@@ -87,25 +87,9 @@ function Hero() {
             rel="noreferrer"
             className=" hover:text-purple"
           >
-            Folasade,
+            Jemila.
           </a>{" "}
-          <a
-            href="https://github.com/e-iroro"
-            target="_blank"
-            rel="noreferrer"
-            className=" hover:text-purple"
-          >
-            Angela
-          </a>{" "}
-          and{" "}
-          <a
-            href="https://github.com/e-iroro"
-            target="_blank"
-            rel="noreferrer"
-            className=" hover:text-purple"
-          >
-            Fredrica
-          </a>
+         
         </p>
       </div>
     </div>
