@@ -4,6 +4,7 @@ import ProjectCard from "./components/ProjectCard";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import projects from './project';
+import Topwork from './components/Topwork'
 
 function createProjectCard(project) {
   return (
@@ -29,8 +30,9 @@ function App() {
       {projects.map(createProjectCard)}
       <About  />
       <Footer />
+      <Topwork />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
