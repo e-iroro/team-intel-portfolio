@@ -1,13 +1,13 @@
 function Hero() {
   return (
-    <div className=" flex flex-col md:flex-row  justify-between mt-11 items-center">
+    <div className=" flex flex-col md:flex-row  justify-between pb-20 items-center w-3/4 mx-auto">
       <img
         src="https://theedresearchhub.com/wp-content/uploads/2022/03/WT-LOGO-1.png"
         alt="Women Techsters Logo"
         srcset=""
         width={240}
       />
-      <div className=" pl-0 md:pl-20 sm:mt-10">
+      <div className=" pl-0 md:pl-20 mt-10">
         <h1 className=" font-questrial text-purple text-3xl pb-7">
           Hi! We're Team Intel.
         </h1>

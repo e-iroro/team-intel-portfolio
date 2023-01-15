@@ -1,63 +1,40 @@
 import React from "react";
-import { Container, Nav } from "react-bootstrap";
 
 function Footer() {
   return (
     <>
-      <div className="py-3 fw-light"  style={{backgroundColor:"#eaeaea8f", fontFamily: "Poppins"}} >
-        <Container>
-        <Nav className="justify-content-center text-center pt-5 text-xl text-purple">
-            Our Sponsors
-        </Nav>
-          <Nav className=" hover:text-purple justify-content-center text-center pt-3">
-            <Nav.Link
-              className="mx-1 mx-md-4"
-              href="https://www.microsoft.com/en-ng"
-              style={{ color: "#4d4d4d" }}
-            >
-              Microsoft
-            </Nav.Link>
-            <Nav.Link
-              className="mx-1 mx-md-4"
-              href="https://www.isdb.org/"
-              style={{ color: "#4d4d4d" }}
-            >
-              IsBD
-            </Nav.Link>
-            <Nav.Link
-              className="mx-1 mx-md-4"
-              href="https://fintech-egypt.com/#:~:text=12%20Jan%202023%20%E2%80%9CFinTech%20Egypt,FinTech%20and%20Innovation%20Strategy%20..."
-              style={{ color: "#4d4d4d" }}
-            >
-              Fintech Egypt
-            </Nav.Link>
-            <Nav.Link
-              className="mx-1 mx-md-4"
-              href="https://accelerateher.co.uk/"
-              style={{ color: "#4d4d4d" }}
-            >
-              Accelerate Her
-            </Nav.Link>
-            <Nav.Link
-              className="mx-1 mx-md-4"
-              href="https://prunedge.com/"
-              style={{ color: "#4d4d4d" }}
-            >
-              Prunedge
-            </Nav.Link>
-            <Nav.Link
-              className="mx-1 mx-md-4"
-              href="https://wemabank.com/alat/"
-              style={{ color: "#4d4d4d" }}
-            >
-              Alat
-            </Nav.Link>
-          </Nav>
-          <p className="text-center pt-3">Built by Team Intel</p>
-          <p className="text-center pt-3">
-            © 2023 TeamIntel. All rights reserved.
-          </p>
-        </Container>
+      <div className="  mx-auto  font-avenir-light space-y-7 bg-violet">
+        <div className=" flex justify-evenly pt-5 ">
+        <p className=" text-lg my-auto">Sponsored by</p>
+          <a
+            href="https://www.microsoft.com/en-ng"
+            target="_blank"
+            rel="noreferrer"
+            className=" my-auto"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg"
+              alt="Microsoft Logo"
+              width={100}
+            />
+          </a>
+          <a href="https://www.isdb.org/" target="_blank" rel="noreferrer">
+            <img
+              src="https://getlogo.net/wp-content/uploads/2019/11/islamic-development-bank-isdb-logo-vector.png"
+              alt="Islamic Development Bank (IsDB) Logo"
+              width={90}
+            />
+          </a>
+          <a href="https://fintech-egypt.com/" target="_blank" rel="noreferrer">
+            <img
+              src="https://fintech-egypt.com/img/logo.png"
+              alt="FinTech Egypt Logo"
+              width={90}
+            />
+          </a>
+        </div>
+        <p className=" text-center text-xl ">Built with <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" width={30} className=" inline" alt="TailwindCSS Logo" /> and <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width={30} className=" inline" alt="ReactJs Logo"/></p>
+        <p className=" text-center">© 2023 by Team Intel</p>
       </div>
     </>
   );

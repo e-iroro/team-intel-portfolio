@@ -4,7 +4,6 @@ import ProjectCard from "./components/ProjectCard";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import projects from './project';
-import Footers from "./components/Footer";
 
 function createProjectCard(project) {
   return (
@@ -24,14 +23,12 @@ function createProjectCard(project) {
 
 function App() {
   return (
-    <div className=" w-3/4 mx-auto ">
+    <div className="  ">
       <Navbar />
       <Hero />
       {projects.map(createProjectCard)}
-      <About />
+      <About  />
       <Footer />
-        <Footers/>
-        {console.log("footer")}
     </div>
   );
 }
