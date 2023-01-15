@@ -1,16 +1,17 @@
-//install font awewsome
-// import 'font-awesome/css/font-awesome.min.css'; //import in react app
 import SocialLinks from "./SocialLinks";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <>
-      <header className=" py-9 flex ">
+      <header className=" py-9 flex w-3/4 mx-auto ">
         <h1
           className="hover:underline text-xl md:text-xl font-questrial font-medium  hover:text-purple hover:scale-125 transition duration-300 mr-11 w-full "
-          href="#Home"
+          to="/home"
         >
+        <Link to="/">
           Team Intel
+        </Link>
         </h1>
         <ul className="flex w-full justify-end  " id="nav">
           <li>
@@ -24,20 +25,20 @@ function Navbar() {
             </a>
           </li>
           <li>
-            <a
+            <Link
               className="text-md  font-avenir-light  font-medium mr-10  hover:text-purple hover:scale-125 transition duration-300"
-              href="#Experience"
+              to="/team"
             >
               Our Team
-            </a>
+            </Link>
           </li>
           <li>
-            <a
+            <Link
               className=" text-md  font-avenir-light  font-medium mr-10  hover:text-purple hover:scale-125 transition duration-300"
-              href="#Experience"
+              to="/about"
             >
               About Us
-            </a>
+            </Link>
           </li>
           <SocialLinks />
         </ul>

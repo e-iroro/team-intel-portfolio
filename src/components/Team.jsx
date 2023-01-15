@@ -14,7 +14,7 @@ function createMemberCard(members) {
   );
 }
 
-function About() {
+function Team() {
   return (
       <div className="mt-10  my-auto text-center w-3/4 mx-auto">
         <h1 className="font-questrial text-4xl mb-4 ">Meet the team 👋</h1>
@@ -26,4 +26,4 @@ function About() {
   );
 }
 
-export default About;
+export default Team;

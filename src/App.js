@@ -1,38 +1,22 @@
-import Hero from './components/Hero';
 import Navbar from "./components/Navbar";
-import ProjectCard from "./components/ProjectCard";
-import About from "./components/About";
+import Team from "./components/Team";
 import Footer from "./components/Footer";
-import projects from './project';
-import Topwork from './components/Topwork'
-
-function createProjectCard(project) {
-  return (
-    <ProjectCard
-      key = {project.id}
-      alt = {project.alt}
-      image = {project.image}
-      name = {project.name}
-      description = {project.description}
-      category = {project.category}
-      project = {project.project}
-      projectLink={project.projectlink}
-      repoLink={project.repo}
-     />
-  )
-}
+import AboutUs from "./components/AboutUs";
+import Home from "./components/Home";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div className="  ">
       <Navbar />
-      <Hero />
-      {projects.map(createProjectCard)}
-      <About  />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/team" element={<Team />} />
+      </Routes>
       <Footer />
-      <Topwork />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

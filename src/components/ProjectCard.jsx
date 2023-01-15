@@ -1,3 +1,7 @@
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 function ProjectCard(props) {
   return (
     <>
@@ -11,8 +15,22 @@ function ProjectCard(props) {
             <p className=" font-work-sans text-xl pb-14">{props.description}</p>
             <p className=" font-work-sans text-xl pb-4">{props.category}</p>
             <div className=" my-4 ">
-              <a href={props.projectLink} target="_blank" rel="noreferrer"></a>
-              <a href={props.repoLink} target="_blank" rel="noreferrer"></a>
+              <a
+                href={props.projectLink}
+                target="_blank"
+                rel="noreferrer"
+                className=" hover:text-purple text-2xl mr-5 hover:cursor-pointer hover:scale-125 transition duration-300 ease-in-out"
+              >
+                <FontAwesomeIcon icon={faUpRightFromSquare} />
+              </a>
+              <a
+                href={props.repoLink}
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-purple text-2xl mr-5 hover:cursor-pointer hover:scale-125 transition duration-300 ease-in-out"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
             </div>
           </div>
         </div>

@@ -47,6 +47,12 @@ const teamLinks = [
         instagram: "https://www.instagram.com/Aanuoluwani",
         mail:"mailto:nancyhany8@gmail.com"
     },
+    {
+        id:7,
+        linkedin:"https://ng.linkedin.com/company/tech4dev{",
+        instagram: "https://www.instagram.com/tech4dev",
+        mail:"mailto:wtfellowship@tech4dev.com"
+    },
 ]
 
 

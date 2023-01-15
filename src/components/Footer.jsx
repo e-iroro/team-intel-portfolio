@@ -1,11 +1,11 @@
-import React from "react";
-
+import SocialLinks from "./SocialLinks";
 function Footer() {
   return (
     <>
-      <div className="  mx-auto  font-avenir-light space-y-7 bg-violet">
+      <div className="  mx-auto  font-avenir-light space-y-7 items-center">
+        <SocialLinks />
         <div className=" flex justify-evenly pt-5 ">
-        <p className=" text-lg my-auto">Sponsored by</p>
+          <p className=" text-lg my-auto">Sponsored by</p>
           <a
             href="https://www.microsoft.com/en-ng"
             target="_blank"
@@ -33,7 +33,22 @@ function Footer() {
             />
           </a>
         </div>
-        <p className=" text-center text-xl ">Built with <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" width={30} className=" inline" alt="TailwindCSS Logo" /> and <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" width={30} className=" inline" alt="ReactJs Logo"/></p>
+        <p className=" text-center text-xl ">
+          Built with{" "}
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg"
+            width={30}
+            className=" inline"
+            alt="TailwindCSS Logo"
+          />{" "}
+          and{" "}
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+            width={30}
+            className=" inline"
+            alt="ReactJs Logo"
+          />
+        </p>
         <p className=" text-center">© 2023 by Team Intel</p>
       </div>
     </>
