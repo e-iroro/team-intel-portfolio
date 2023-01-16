@@ -3,13 +3,13 @@ import React from "react";
 const AboutUs = () => {
   return (
     <>
-      <section className="py-5 bg-violet ">
+      <section className=" bg-violet  py-24 ">
         <h1 className="text-center text-5xl font-avenir-heavy text-purple py-10 ">
           About us
         </h1>
         <div className="flex  justify-center items-center m-auto w-3/4 rounded-lg">
           <div className="flex flex-col mx-1 my-1 space-y-7 md:space-y-0 md:space-x-7 md:flex-row">
-            <div className="w-full bg-purple md:w-1/3  rounded-xl px-3 py-2 font-avenir-regular shadow-2xl text-violet text-base hover:scale-105 transition duration-300 ease-in-out">
+            <div className="w-full bg-purple md:w-1/3  rounded-xl px-3 py-2 font-avenir-regular shadow-2xl text-violet text-base">
               <h2 className="mx-1 font-avenir-heavy text-2xl pb-2">Women Techsters</h2>
               <p>
                 The Women Techsters initiative, an initiative of Tech4Dev is
@@ -26,7 +26,7 @@ const AboutUs = () => {
               </p>
             </div>
 
-            <div className="w-full bg-purple md:w-1/3   rounded-xl px-3 py-2 font-avenir-regular shadow-2xl text-violet text-base hover:scale-105 transition duration-300 ease-in-out">
+            <div className="w-full bg-purple md:w-1/3   rounded-xl px-3 py-2 font-avenir-regular shadow-2xl text-violet text-base">
               <h2 className="mx-1 font-avenir-heavy text-2xl pb-2">Tech4Dev</h2>
               <p>
                 Technology for Social Change and Development Initiative
@@ -44,7 +44,7 @@ const AboutUs = () => {
               </p>
             </div>
 
-            <div className="w-full bg-purple  md:w-1/3  rounded-xl px-3 py-2 font-avenir-regular shadow-2xl text-violet text-base hover:scale-105 transition duration-300 ease-in-out">
+            <div className="w-full bg-purple  md:w-1/3  rounded-xl px-3 py-2 font-avenir-regular shadow-2xl text-violet text-base">
               <h2 className="mx-1 font-avenir-heavy text-2xl pb-2">Team Intel</h2>
               <p>
                 Team Intel comprises a team of 11 ladies led by Blessing

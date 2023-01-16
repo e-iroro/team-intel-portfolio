@@ -2,15 +2,17 @@ import SocialLinks from "./SocialLinks";
 function Footer() {
   return (
     <>
-      <div className="  mx-auto  font-avenir-light space-y-7 items-center">
-        <SocialLinks />
-        <div className=" flex justify-evenly pt-5 ">
+      <div className="  mx-auto  font-avenir-light space-y-4 items-center">
+        <div className={"mx-auto w-fit pt-4"}>
+          <SocialLinks />
+        </div>
+        <div className=" flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-5 w-fit mx-auto">
           <p className=" text-lg my-auto">Sponsored by</p>
           <a
             href="https://www.microsoft.com/en-ng"
             target="_blank"
             rel="noreferrer"
-            className=" my-auto"
+            className=" pt-4 "
           >
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg"

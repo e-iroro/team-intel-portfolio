@@ -1,13 +1,13 @@
 import Navbar from "./components/Navbar";
-import Team from "./components/Team";
+import Team from "./components/pages/Team";
 import Footer from "./components/Footer";
-import AboutUs from "./components/AboutUs";
-import Home from "./components/Home";
+import AboutUs from "./components/pages/AboutUs";
+import Home from "./components/pages/Home";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="  ">
+    <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
