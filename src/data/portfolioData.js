@@ -17,7 +17,7 @@ export const members = [
     title: "Team Member",
     name: "Eruoghene Iroro",
     bio: "A law student who combines her tech and legal knowledge to help women and girls across Nigeria. She's passionate about sustainability and accessibility ",
-    linkedin: "https://www.linkedin.com/in/karima-ali-7aa49a108/",
+    linkedin: "https://inkedin.com/in/eruoghene-eru-i-a1017723b",
     github: "https://github.com/e-iroro",
     twitter: "https://twitter.com/eru_js",
     mail: "mailto:iroroeru@gmail.com",
@@ -155,7 +155,7 @@ export const projects = [
 export const wtFellowshipLinks = [
   {
     id: 1,
-    linkedin: "https://ng.linkedin.com/company/tech4dev{",
+    linkedin: "https://ng.linkedin.com/company/tech4dev",
     instagram: "https://www.instagram.com/tech4dev",
     mail: "mailto:wtfellowship@tech4dev.com",
   },
